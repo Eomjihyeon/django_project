@@ -1,14 +1,7 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+{% extends "base.html" %}
 
-</head>
-<body>
-<h1>welcome home!!</h1>
-<h2>안뇽하세요 {{name}}은 {{number}} 번째 입니다 </h2>
-{{present | safe}}
+{% block content %}  <!--content만 변경 -->
 
-</body>
-</html>
+<h1>welcome.html</h1>
+<h3>수고</h3>
+{% endblock %}
